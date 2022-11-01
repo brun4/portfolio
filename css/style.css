@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: linear-gradient(90deg, #fc8cc4, #ff006f);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.3;
+  position: relative;
+}
+
+section {
+  width: 1020px;
+  height: 480x;
+  margin: 0 auto;
+  padding-top: 48px;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.pessoa {
+  display: inline-block;
+}
+
+.pessoa h1 {
+  font-size: 64px;
+  margin-top: 64px;
+}
+
+.pessoa h2 {
+  margin: 16px 0;
+  font-size: 20px;
+}
+
+.avatar {
+  position: absolute;
+  width: 260px;
+  right: 80px;
+  top: 90px;
+  border-radius: 50%;
+  border: white 3px solid;
+}
+
+.contato img {
+  width: 40px;
+  margin: 18px 6px;
+  transition: 0.7s transform;
+}
+
+.contato img:hover {
+  transform: scale(1.3);
+}
+
+.contato {
+  position: relative;
+  margin-top: 5px;
+}
+
+.icones-informacoes {
+  width: 40px;
+}

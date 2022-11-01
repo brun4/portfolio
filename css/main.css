@@ -1,0 +1,67 @@
+main {
+  background: rgb(255, 229, 229);
+  padding: 48px 0;
+  color: #ff006f;
+}
+
+main div {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.sobre {
+  position: relative;
+}
+
+.foto-sobre {
+  width: 400px;
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: 1px 1px 16px rgba(82, 4, 56, 0.2);
+}
+
+.texto-sobre {
+  display: inline-block;
+  width: 480px;
+  vertical-align: top;
+  position: absolute;
+  right: 0;
+  top: 48px;
+}
+
+.titulo {
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 48px;
+}
+
+.background-texto {
+  background-color: #fc8cc4;
+  box-shadow: 1px 1px 16px rgba(82, 4, 56, 0.5);
+  color: rgb(255, 229, 229);
+  padding: 18px;
+  display: inline-block;
+  border-radius: 8px;
+  width: 45%;
+  box-sizing: border-box;
+  vertical-align: top;
+  height: 100px;
+}
+
+.margem-caixas {
+  margin: 2.3%;
+}
+
+.icones-interesses {
+  width: 80px;
+  transition: 0.7s transform;
+}
+
+.icones-interesses:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.display-informacoes-interesses {
+  display: none;
+}

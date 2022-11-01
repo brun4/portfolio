@@ -1,0 +1,21 @@
+footer {
+  height: 180px;
+  padding-top: 32px;
+  text-align: center;
+  color: white;
+}
+
+.footer-informacoes {
+  width: 1020px;
+  margin: 0 auto 52px;
+}
+
+.footer-informacoes img {
+  width: 25px;
+}
+
+.fale-comigo {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 3px;
+}
